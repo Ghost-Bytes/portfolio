@@ -60,17 +60,17 @@ $skills = [
 $projects = [
     [
         'id' => 1,
-        'title' => 'Luggage Registration System',
-        'thumbnail' => 'img/projects/luggage.jpg',
-        'description' => 'A system that allows travellers to register their luggage and easily track it',
+        'title' => 'Car Park Assistance',
+        'thumbnail' => 'img/projects/parking.jpg',
+        'description' => 'A system designed to tell drivers if a car park has space or not. ',
         'full_details' => '',
-        'technologies' => ['Laravel', 'HTML', 'CSS', 'JavaScript'],
+        'technologies' => ['C++', 'ESP32', 'IR Sensor'],
         'link_code' => 'https://github.com/Ghost-Bytes'
     ],
     [
         'id' => 2,
         'title' => 'Ticketing System',
-        'thumbnail' => 'img/projects/tickets.jpg',
+        'thumbnail' => 'img/projects/tickets.png',
         'description' => '<b>Coming Soon</b> <br> A system for sending tickets for ICT assistance',
         'full_details' => '',
         'technologies' => ['Laravel', 'HTML', 'CSS',],
@@ -87,11 +87,11 @@ $projects = [
     ],
     [
         'id' => 4,
-        'title' => 'Car Park Assistance',
-        'thumbnail' => 'img/projects/parking.jpg',
-        'description' => 'A system designed to tell drivers if a car park has space or not. ',
+        'title' => 'Luggage Registration System',
+        'thumbnail' => 'img/projects/luggage.jpg',
+        'description' => 'A system that allows travellers to register their luggage and easily track it',
         'full_details' => '',
-        'technologies' => ['C++', 'ESP32', 'IR Sensor'],
+        'technologies' => ['Laravel', 'HTML', 'CSS', 'JavaScript'],
         'link_code' => 'https://github.com/Ghost-Bytes'
     ],
 ];
