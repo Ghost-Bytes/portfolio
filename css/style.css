@@ -198,7 +198,7 @@ img {
     margin: 5px 0;
     transition: var(--transition);
 }
-
+  
 /* Hero Section */
 #hero {
     padding-top: 7rem;
@@ -358,6 +358,11 @@ img {
     gap: 0.5rem;
     margin-top: auto;
 }
+
+.btn-projects {
+    text-align: center;
+}
+
 
 /* Projects Page */
 .projects-page {

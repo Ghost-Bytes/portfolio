@@ -29,7 +29,7 @@
         </div>
         <?php endforeach; ?>
     </div>
-    <div class="section-footer">
-        <a href="projects.php" class="btn btn-primary">View All Projects</a>
+    <div class="btn-projects">
+        <a href="projects.php" class="btn btn-primary text-center">View All Projects</a>
     </div>
 </div>
