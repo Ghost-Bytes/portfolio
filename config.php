@@ -50,12 +50,25 @@ $experiences = [
 
 // Skills data
 $skills = [
-    'Languages' => ['PHP', 'JavaScript', 'HTML5', 'CSS3'],
-    'Frameworks & Libraries' => ['Laravel', 'Bootstrap'],
-    'Tools & Platforms' => ['Linux', 'Figma'],
-    'Databases' => ['MySQL']
+    'Languages' => [
+        'PHP' => 80,
+        'JavaScript' => 75,
+        'HTML5' => 90,
+        'CSS3' => 77
+    ],
+    'Frameworks & Libraries' => [
+        'Laravel' => 85,
+        'Bootstrap' => 70
+    ],
+    'Tools & Platforms' => [
+        'Linux' => 75,
+        'Figma' => 70
+    ],
+    'Databases' => [
+        'MySQL' => 80,
+        'Microsoft Access' => 78
+    ]
 ];
-
 // Projects data
 $projects = [
     [

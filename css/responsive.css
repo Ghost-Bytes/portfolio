@@ -111,6 +111,14 @@
     .hero-text h2 {
         font-size: 1.25rem;
     }
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .skill-category {
+        padding: 1.5rem;
+    }
     
     .projects-grid {
         grid-template-columns: 1fr;
@@ -150,11 +158,22 @@
     .timeline-item.right {
         left: 0;
     }
+
+    .timeline-item.right::after {
+        left: 21px;
+    }
     
     .timeline-content {
         padding: 15px 20px;
     }
     
+    .timeline-tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
     /* Mobile menu toggle button when active */
     .mobile-menu-toggle.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
@@ -201,6 +220,11 @@
         left: 16px;
         width: 16px;
         height: 16px;
+        top: 25px;
+    }
+
+    .timeline-item.right::after {
+        left: 21px;
     }
     
     .timeline:after {
