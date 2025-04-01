@@ -21,7 +21,7 @@ $personal_info = [
     'location' => 'Blantyre, MW',
     'about_me' => 'I\'m a passionate web developer with expertise in PHP, Laravel, and a little bit of Javascript. I enjoy creating solutions to different problems and designing beautiful user interfaces. I am new in this field and seek to further my experience further more that I spend most of my time creating websites so I can learn more.',
     'profile_image' => 'img/profile.jpg',
-    'resume_link' => 'files/resume.pdf',
+    'resume_link' => 'files/William Giva CV.pdf',
     'social_links' => [
         ['platform' => 'LinkedIn', 'icon' => 'fab fa-linkedin', 'url' => 'https://www.linkedin.com/in/william-giva-9876b0149'],
         ['platform' => 'GitHub', 'icon' => 'fab fa-github', 'url' => 'https://github.com/Ghost-Bytes'],
@@ -74,7 +74,7 @@ $projects = [
         'description' => '<b>Coming Soon</b> <br> A system for sending tickets for ICT assistance',
         'full_details' => '',
         'technologies' => ['Laravel', 'HTML', 'CSS',],
-        'link_code' => 'https://github.com/Ghost-Bytes'
+        'link_code' => 'https://github.com/Ghost-Bytes/ticket_system'
     ],
     [
         'id' => 3,
@@ -83,7 +83,7 @@ $projects = [
         'description' => 'A responsive portfolio website showcasing skills and projects with a clean, modern design.',
         'full_details' => '',
         'technologies' => ['HTML', 'CSS', 'JavaScript', 'PHP'],
-        'link_code' => 'https://github.com/Ghost-Bytes'
+        'link_code' => 'https://github.com/Ghost-Bytes/portfolio'
     ],
     [
         'id' => 4,
